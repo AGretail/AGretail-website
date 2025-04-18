@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background: #006400;
+    color: white;
+}
+.logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #228B22;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+}
+.galeri-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.galeri-container img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    background: #006400;
+    color: white;
+    padding: 10px;
+}
+.sosmed a {
+    color: #006400;
+    text-decoration: none;
+}
